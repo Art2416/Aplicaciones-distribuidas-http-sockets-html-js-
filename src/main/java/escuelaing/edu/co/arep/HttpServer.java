@@ -66,7 +66,7 @@ public class HttpServer {
      * crea el contenido
      * @return contenido de la pagina
      */
-    private static String content(){
+    public static String content(){
         return "<!DOCTYPE html>\n" +
                 "<html>\n" +
                 "<head>\n" +
